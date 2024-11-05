@@ -47,7 +47,7 @@ Numeros = []
 
 # Se generan los numeros
 while True:
-    Numero = round(random.random() * (36 - 1 + 1) + 1)
+    Numero = round(random.random() * (36 - 2 + 1) + 1)
     Numeros.append(Numero)
     if Numero == 36:
         break
